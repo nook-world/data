@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "pretty": true,
+    "declaration": true,
+    "noEmitOnError": false,
+    "listEmittedFiles": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "stripInternal": true,
+    "lib": ["ESNext", "dom"],
+    "removeComments": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["scripts/**/*.ts"]
+}
