@@ -40,7 +40,6 @@
     "url": "https://github.com/nook-world/data/issues"
   },
   "homepage": "https://github.com/nook-world/data#readme",
-  "private": true,
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
