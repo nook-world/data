@@ -8,7 +8,7 @@
     "build": "npm run clean && npm run generate",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
+  "devDependencies": {
     "@sindresorhus/slugify": "^0.11.0",
     "camelcase": "^6.0.0",
     "event-stream": "^4.0.1",
@@ -16,9 +16,7 @@
     "jsonl": "^1.1.2",
     "globby": "^11.0.0",
     "typescript": "^3.8.3",
-    "ts-node": "^8.8.2"
-  },
-  "devDependencies": {
+    "ts-node": "^8.8.2",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@types/event-stream": "^3.3.34",
