@@ -1,0 +1,4 @@
+{"source": "src/critters/bugs.jsonl", "type": "collection", "output": "./critters/bugs.js"}
+{"source": "src/critters/fishes.jsonl", "type": "collection", "output": "./critters/fishes.js"}
+{"source": "src/critters/bugs.jsonl", "type": "pluck", "output": "./critters/bug/{name}.js"}
+{"source": "src/critters/fishes.jsonl", "type": "pluck", "output": "./critters/fish/{name}.js"}
