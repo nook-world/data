@@ -19,10 +19,15 @@
     "ts-node": "^8.8.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@types/event-stream": "^3.3.34",
     "@types/fs-extra": "^8.1.0",
     "@types/node": "^13.11.1",
+    "husky": "^4.2.0",
     "prettier": "^2.0.4",
+    "lint-staged": "^10.0.8",
+    "pretty-quick": "^2.0.1",
     "standard-version": "^7.1.0"
   },
   "repository": {
@@ -44,5 +49,27 @@
   },
   "files": [
     "critters"
-  ]
+  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.ts": [
+      "pretty-quick --staged"
+    ],
+    "*.json": [
+      "pretty-quick --staged"
+    ]
+  },
+  "standard-version": {
+    "header": "# CHANGELOG - @nook-world/data\n",
+    "releaseCommitMessageFormat": "chore(release): v{{currentTag}}"
+  }
 }
