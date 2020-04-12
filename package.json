@@ -6,7 +6,8 @@
     "clean": "node -r ts-node/register scripts/clean-build.ts",
     "generate": "node -r ts-node/register scripts/generator.ts",
     "build": "npm run clean && npm run generate",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@sindresorhus/slugify": "^0.11.0",
