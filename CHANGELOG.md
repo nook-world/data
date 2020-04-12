@@ -1,5 +1,12 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.2](https://github.com/nook-world/data/compare/v0.2.1...v0.2.2) (2020-04-12)
+
+
+### Bug Fixes
+
+* change exports to root level ([86945c7](https://github.com/nook-world/data/commit/86945c77a7ee11b8cadffc4b506e662745842c5e))
+
 ### [0.2.1](https://github.com/nook-world/data/compare/v0.2.0...v0.2.1) (2020-04-12)
 
 
