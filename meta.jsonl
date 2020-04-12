@@ -1,4 +1,5 @@
-{"source": "src/critters/bugs.jsonl", "type": "collection", "output": "./critters/bugs.js"}
-{"source": "src/critters/fishes.jsonl", "type": "collection", "output": "./critters/fishes.js"}
-{"source": "src/critters/bugs.jsonl", "type": "pluck", "output": "./critters/bug/{name}.js"}
-{"source": "src/critters/fishes.jsonl", "type": "pluck", "output": "./critters/fish/{name}.js"}
+{"source": "src/bugs.jsonl", "type": "collection", "output": "./bugs.js"}
+{"source": "src/fishes.jsonl", "type": "collection", "output": "./fishes.js"}
+{"source": "src/fossils.jsonl", "type": "collection", "output": "./fossils.js" }
+{"source": "src/bugs.jsonl", "type": "pluck", "output": "./bug/{name}.js"}
+{"source": "src/fishes.jsonl", "type": "pluck", "output": "./fish/{name}.js"}
