@@ -12,7 +12,7 @@ const createCrittersCollectionStream = (
   outputFile: string
 ) => {
   const writableStream = createWriteStream(outputFile, { encoding: "utf8" });
-  writableStream.write("module.exports.default = [");
+  writableStream.write("module.exports = [");
   inputStream.on("end", () => {
     writableStream.end("];");
   });

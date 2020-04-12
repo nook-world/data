@@ -59,7 +59,7 @@ const pluckItemsToFile = (inputStream: MapStream, outputPath: string) => {
       const critterStream = createWriteStream(critterFile, {
         encoding: "utf8",
       });
-      critterStream.write(`module.exports.default = ${JSON.stringify(data)};`);
+      critterStream.write(`module.exports = ${JSON.stringify(data)};`);
       critterStream.on("finish", () => {
         console.log(`Plucked item to ${critterFile}`);
       });
