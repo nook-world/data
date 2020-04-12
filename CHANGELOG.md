@@ -1,5 +1,21 @@
 # CHANGELOG - @nook-world/data
 
+## [0.2.0](https://github.com/nook-world/data/compare/v0.1.1...v0.2.0) (2020-04-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **package:** This will change how the import works in the client.
+
+### Features
+
+* add fossils lists ([d19ca9f](https://github.com/nook-world/data/commit/d19ca9f2effc7c85cd2a004d572867b6fab244fe))
+
+
+### build
+
+* **package:** change how the files are built ([b7b8b1b](https://github.com/nook-world/data/commit/b7b8b1b31414f70c22171ebd613a3d32fe67ff5b))
+
 ### [0.1.1](https://github.com/nook-world/data/compare/v0.1.0...v0.1.1) (2020-04-11)
 
 
