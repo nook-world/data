@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "The data used by our applications",
   "scripts": {
-    "clean": "rm -rf critter",
+    "clean": "node -r ts-node/register scripts/clean-build.ts",
     "generate": "node -r ts-node/register scripts/generator.ts",
     "build": "npm run clean && npm run generate",
     "prepublishOnly": "npm run build"
@@ -44,9 +44,6 @@
   "volta": {
     "node": "13.12.0"
   },
-  "files": [
-    "critters"
-  ],
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"

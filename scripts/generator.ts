@@ -10,8 +10,8 @@ import { collectionGenerator } from "./generators/collection";
 import { pluckGenerator } from "./generators/pluck";
 import { generateEntries } from "./generators/entry";
 import globby from "globby";
+import { ROOT_LOCATION } from "./const";
 
-export const ROOT_LOCATION = resolve(__dirname, "../");
 const METAFILE_LOCATION = join(ROOT_LOCATION, "meta.jsonl");
 
 if (!existsSync(METAFILE_LOCATION)) {

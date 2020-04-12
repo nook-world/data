@@ -11,9 +11,7 @@ import {
 import { sync as readFolder } from "globby";
 import { dirname, join, parse as parsePath, ParsedPath, resolve } from "path";
 import { GeneratorSettings } from "../generator";
-
-const ROOT_LOCATION = resolve(__dirname, "../");
-const DATASRC_LOCATION = join(ROOT_LOCATION, "./src");
+import { ROOT_LOCATION, DATASRC_LOCATION } from "../const";
 
 const hasJsonFile = (pathDetails: ParsedPath) => {
   const jsonPath = join(
@@ -61,7 +59,7 @@ const pluckItemsToFile = (inputStream: MapStream, outputPath: string) => {
       const critterStream = createWriteStream(critterFile, {
         encoding: "utf8",
       });
-      critterStream.write(`export default ${JSON.stringify(data)};`);
+      critterStream.write(`module.exports.default = ${JSON.stringify(data)};`);
       critterStream.on("finish", () => {
         console.log(`Plucked item to ${critterFile}`);
       });
