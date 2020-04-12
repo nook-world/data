@@ -1,5 +1,12 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.1](https://github.com/nook-world/data/compare/v0.2.0...v0.2.1) (2020-04-12)
+
+
+### Bug Fixes
+
+* malformed fossils json ([51e8b77](https://github.com/nook-world/data/commit/51e8b777918a4756fb2c3667006491eb800ef10b))
+
 ## [0.2.0](https://github.com/nook-world/data/compare/v0.1.1...v0.2.0) (2020-04-12)
 
 
