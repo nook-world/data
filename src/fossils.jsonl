@@ -11,7 +11,7 @@
   { "id": 11, "name": "Archaeopteryx", "price": 1300 }
   { "id": 12, "name": "Archelon Skull", "price": 4000 }
   { "id": 13, "name": "Archelon Tail", "price": 3500 }
-  { "id": 14, "name": "Australopithecus", "price": 1100 }
+  { "id": 14, "name": "Australopith", "price": 1100 }
   { "id": 15, "name": "Brachio Chest", "price": 5000 }
   { "id": 16, "name": "Brachio Pevis", "price": 5000 }
   { "id": 17, "name": "Brachio Skull", "price": 6000 }
@@ -20,12 +20,11 @@
   { "id": 20, "name": "Deinony Tail", "price": 2500 }
   { "id": 21, "name": "Deinony Torso", "price": 3000 }
   { "id": 22, "name": "Dimetrodon Skull", "price": 5500 }
-  { "id": 23, "name": "Dimetrodon Tail", "price": 4500 }
   { "id": 24, "name": "Dimetrodon Torso", "price": 5000 }
   { "id": 25, "name": "Dinosaur Egg", "price": 1400 }
   { "id": 26, "name": "Dinosaur Track", "price": 1000 }
   { "id": 27, "name": "Diplo Chest", "price": 4500 }
-  { "id": 28, "name": "Diplo Hip", "price": 4000 }
+  { "id": 28, "name": "Diplo Pelvis", "price": 4000 }
   { "id": 29, "name": "Diplo Neck", "price": 5000 }
   { "id": 30, "name": "Diplo Skull", "price": 5000 }
   { "id": 31, "name": "Diplo Tail", "price": 4500 }
@@ -44,33 +43,31 @@
   { "id": 44, "name": "Megacero Skull", "price": 4500 }
   { "id": 45, "name": "Megacero Tail", "price": 3000 }
   { "id": 46, "name": "Megacero Torso", "price": 3500 }
-  { "id": 47, "name": "Megalo Left Side", "price": 4000 }
-  { "id": 48, "name": "Megalo Right Side", "price": 5500 }
+  { "id": 47, "name": "Left Megalo Side", "price": 4000 }
+  { "id": 48, "name": "Right Megalo Side", "price": 5500 }
   { "id": 49, "name": "Myllokunmingia", "price": 1500 }
   { "id": 50, "name": "Ophthalmo Skull", "price": 2500 }
-  { "id": 51, "name": "Ophthalmo Tail", "price": 2500 }
   { "id": 52, "name": "Ophthalmo Torso", "price": 2000 }
-  { "id": 53, "name": "Pachy Skull", "price": 4000 }
-  { "id": 54, "name": "Pachy Tail", "price": 3000 }
-  { "id": 55, "name": "Pachy Torso", "price": 3500 }
+  { "id": 53, "name": "Pachysaurus Skull", "price": 4000 }
+  { "id": 54, "name": "Pachysaurus Tail", "price": 3000 }
   { "id": 56, "name": "Parasaur Skull", "price": 3500 }
   { "id": 57, "name": "Parasaur Tail", "price": 2500 }
   { "id": 58, "name": "Parasaur Torso", "price": 3000 }
   { "id": 59, "name": "Peking Man", "price": 1100 }
-  { "id": 60, "name": "Plesio Neck", "price": 4500 }
+  { "id": 60, "name": "Plesio Body", "price": 4500 }
   { "id": 61, "name": "Plesio Skull", "price": 4000 }
   { "id": 62, "name": "Plesio Torso", "price": 4500 }
   { "id": 63, "name": "Ptera Body", "price": 4000 }
-  { "id": 64, "name": "Ptera Left Wing", "price": 4500 }
-  { "id": 65, "name": "Ptera Right Wing", "price": 4500 }
+  { "id": 64, "name": "Left Ptera Wing", "price": 4500 }
+  { "id": 65, "name": "Right Ptera Wing", "price": 4500 }
   { "id": 66, "name": "Ptera Skull", "price": 4000 }
-  { "id": 67, "name": "Quetzal Left Wing", "price": 4500 }
-  { "id": 68, "name": "Quetzal Right Wing", "price": 5000 }
+  { "id": 67, "name": "Left Quetzal Wing", "price": 4500 }
+  { "id": 68, "name": "Right Quetzal Wing", "price": 5000 }
   { "id": 69, "name": "Quetzal Torso", "price": 4000 }
   { "id": 70, "name": "Raptor Skull", "price": 3000 }
   { "id": 71, "name": "Raptor Torso", "price": 2500 }
   { "id": 72, "name": "Sabertooth Skull", "price": 2500 }
-  { "id": 73, "name": "Sabertooth Torso", "price": 2000 }
+  { "id": 73, "name": "Sabertooth Tail", "price": 2000 }
   { "id": 74, "name": "Shark Tooth", "price": 1000 }
   { "id": 75, "name": "Shark-Tooth Pattern", "price": 1000 }
   { "id": 76, "name": "Spino Skull", "price": 4000 }
