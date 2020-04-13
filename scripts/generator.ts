@@ -1,16 +1,9 @@
-import { split, MapStream } from "event-stream";
-import {
-  createReadStream,
-  existsSync,
-  readFileSync,
-  WriteStream,
-} from "fs-extra";
-import { join, resolve, dirname } from "path";
+import { split } from "event-stream";
+import { createReadStream, existsSync, readFileSync } from "fs-extra";
+import { join, resolve } from "path";
+import { ROOT_LOCATION } from "./const";
 import { collectionGenerator } from "./generators/collection";
 import { pluckGenerator } from "./generators/pluck";
-import { generateEntries } from "./generators/entry";
-import globby from "globby";
-import { ROOT_LOCATION } from "./const";
 
 const METAFILE_LOCATION = join(ROOT_LOCATION, "meta.jsonl");
 
