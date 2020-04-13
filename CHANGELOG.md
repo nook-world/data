@@ -1,5 +1,12 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.3](https://github.com/nook-world/data/compare/v0.2.2...v0.2.3) (2020-04-13)
+
+
+### Bug Fixes
+
+* diplo pelvis name ([a9e7c77](https://github.com/nook-world/data/commit/a9e7c7734427215b25a990429969b370c1196073))
+
 ### [0.2.2](https://github.com/nook-world/data/compare/v0.2.1...v0.2.2) (2020-04-12)
 
 
