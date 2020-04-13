@@ -1,5 +1,15 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.5](https://github.com/nook-world/data/compare/v0.2.4...v0.2.5) (2020-04-13)
+
+
+### Bug Fixes
+
+* fossils id ([2d71f04](https://github.com/nook-world/data/commit/2d71f044ca4aa55bb63a75b6daa9fc0203f9db54))
+* fossils name ([23ca125](https://github.com/nook-world/data/commit/23ca1259317bc8541a5fe87ba9323f07f5cae03a))
+* remove unused imports ([330946c](https://github.com/nook-world/data/commit/330946c822a3b92d5ecba7707fe86ef5e955552a))
+* show Tricera Tail fossil ([cc6d0d0](https://github.com/nook-world/data/commit/cc6d0d0edfc670cb0d8cffb97cecd65fa0af1a8b))
+
 ### [0.2.4](https://github.com/nook-world/data/compare/v0.2.3...v0.2.4) (2020-04-13)
 
 
