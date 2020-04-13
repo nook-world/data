@@ -1,5 +1,12 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.4](https://github.com/nook-world/data/compare/v0.2.3...v0.2.4) (2020-04-13)
+
+
+### Features
+
+* new fossils list structure ([d2960a9](https://github.com/nook-world/data/commit/d2960a96f414216e10329983e9caf172fe53abfa))
+
 ### [0.2.3](https://github.com/nook-world/data/compare/v0.2.2...v0.2.3) (2020-04-13)
 
 
