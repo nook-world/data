@@ -1,5 +1,12 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.7](https://github.com/nook-world/data/compare/v0.2.6...v0.2.7) (2020-04-14)
+
+
+### Bug Fixes
+
+* name pachysaurus to pachy ([6204e86](https://github.com/nook-world/data/commit/6204e86ef2cb655f6a6ab412cb993d6bf3ff3ca9))
+
 ### [0.2.6](https://github.com/nook-world/data/compare/v0.2.5...v0.2.6) (2020-04-14)
 
 
