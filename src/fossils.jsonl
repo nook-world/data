@@ -50,9 +50,9 @@
   { "id": 50, "name": "Ophthalmo Skull", "price": 2500, "show":true }
   { "id": 51, "name": "Ophthalmo Tail", "price": 2500, "show":false }
   { "id": 52, "name": "Ophthalmo Torso", "price": 2000, "show":true }
-  { "id": 53, "name": "Pachy Skull", "price": 4000, "show":true }
-  { "id": 54, "name": "Pachy Tail", "price": 3000, "show":true }
-  { "id": 55, "name": "Pachy Torso", "price": 3500, "show":false }
+  { "id": 53, "name": "Pachysaur Skull", "price": 4000, "show":true }
+  { "id": 54, "name": "Pachysaur Tail", "price": 3000, "show":true }
+  { "id": 55, "name": "Pachysaur Torso", "price": 3500, "show":false }
   { "id": 56, "name": "Parasaur Skull", "price": 3500, "show":true }
   { "id": 57, "name": "Parasaur Tail", "price": 2500, "show":true }
   { "id": 58, "name": "Parasaur Torso", "price": 3000, "show":true }
@@ -63,7 +63,7 @@
   { "id": 63, "name": "Ptera Body", "price": 4000, "show":true }
   { "id": 64, "name": "Left Ptera Wing", "price": 4500, "show":true }
   { "id": 65, "name": "Right Ptera Wing", "price": 4500, "show":true }
-  { "id": 66, "name": "Ptera Skull", "price": 4000, "show":true }
+  { "id": 66, "name": "Ptera Skull", "price": 4000, "show":false }
   { "id": 67, "name": "Left Quetzal Wing", "price": 4500, "show":true }
   { "id": 68, "name": "Right Quetzal Wing", "price": 5000, "show":true }
   { "id": 69, "name": "Quetzal Torso", "price": 4000, "show":true }
@@ -71,7 +71,7 @@
   { "id": 71, "name": "Raptor Torso", "price": 2500, "show":false }
   { "id": 72, "name": "Sabertooth Skull", "price": 2500, "show":true }
   { "id": 73, "name": "Sabertooth Tail", "price": 2000, "show":true }
-  { "id": 74, "name": "Shark Tooth", "price": 1000, "show":true }
+  { "id": 74, "name": "Shark Tooth", "price": 1000, "show":false }
   { "id": 75, "name": "Shark-Tooth Pattern", "price": 1000, "show":true }
   { "id": 76, "name": "Spino Skull", "price": 4000, "show":true }
   { "id": 77, "name": "Spino Tail", "price": 2500, "show":true }
