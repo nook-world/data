@@ -44,8 +44,8 @@
   { "id": 44, "name": "Megacero Skull", "price": 4500, "show":true }
   { "id": 45, "name": "Megacero Tail", "price": 3000, "show":true }
   { "id": 46, "name": "Megacero Torso", "price": 3500, "show":true }
-  { "id": 47, "name": "Megalo Left Side", "price": 4000, "show":true }
-  { "id": 48, "name": "Megalo Right Side", "price": 5500, "show":true }
+  { "id": 47, "name": "Left Megalo Side", "price": 4000, "show":true }
+  { "id": 48, "name": "Right Megalo Side", "price": 5500, "show":true }
   { "id": 49, "name": "Myllokunmingia", "price": 1500, "show":true }
   { "id": 50, "name": "Ophthalmo Skull", "price": 2500, "show":true }
   { "id": 51, "name": "Ophthalmo Tail", "price": 2500, "show":false }
@@ -61,11 +61,11 @@
   { "id": 61, "name": "Plesio Skull", "price": 4000, "show":true }
   { "id": 62, "name": "Plesio Tail", "price": 4500, "show":true }
   { "id": 63, "name": "Ptera Body", "price": 4000, "show":true }
-  { "id": 64, "name": "Ptera Left Wing", "price": 4500, "show":true }
-  { "id": 65, "name": "Ptera Right Wing", "price": 4500, "show":true }
+  { "id": 64, "name": "Left Ptera Wing", "price": 4500, "show":true }
+  { "id": 65, "name": "Right Ptera Wing", "price": 4500, "show":true }
   { "id": 66, "name": "Ptera Skull", "price": 4000, "show":true }
-  { "id": 67, "name": "Quetzal Left Wing", "price": 4500, "show":true }
-  { "id": 68, "name": "Quetzal Right Wing", "price": 5000, "show":true }
+  { "id": 67, "name": "Left Quetzal Wing", "price": 4500, "show":true }
+  { "id": 68, "name": "Right Quetzal Wing", "price": 5000, "show":true }
   { "id": 69, "name": "Quetzal Torso", "price": 4000, "show":true }
   { "id": 70, "name": "Raptor Skull", "price": 3000, "show":false }
   { "id": 71, "name": "Raptor Torso", "price": 2500, "show":false }
