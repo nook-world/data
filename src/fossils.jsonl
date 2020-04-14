@@ -50,9 +50,9 @@
   { "id": 50, "name": "Ophthalmo Skull", "price": 2500, "show":true }
   { "id": 51, "name": "Ophthalmo Tail", "price": 2500, "show":false }
   { "id": 52, "name": "Ophthalmo Torso", "price": 2000, "show":true }
-  { "id": 53, "name": "Pachysaurus Skull", "price": 4000, "show":true }
-  { "id": 54, "name": "Pachysaurus Tail", "price": 3000, "show":true }
-  { "id": 55, "name": "Pachysaurus Torso", "price": 3500, "show":false }
+  { "id": 53, "name": "Pachy Skull", "price": 4000, "show":true }
+  { "id": 54, "name": "Pachy Tail", "price": 3000, "show":true }
+  { "id": 55, "name": "Pachy Torso", "price": 3500, "show":false }
   { "id": 56, "name": "Parasaur Skull", "price": 3500, "show":true }
   { "id": 57, "name": "Parasaur Tail", "price": 2500, "show":true }
   { "id": 58, "name": "Parasaur Torso", "price": 3000, "show":true }
