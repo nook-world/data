@@ -1,5 +1,12 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.6](https://github.com/nook-world/data/compare/v0.2.5...v0.2.6) (2020-04-14)
+
+
+### Bug Fixes
+
+* use the same name as in-game ([9c137d0](https://github.com/nook-world/data/commit/9c137d030fed12f57a37cc3f784dc1a531c6d3ef))
+
 ### [0.2.5](https://github.com/nook-world/data/compare/v0.2.4...v0.2.5) (2020-04-13)
 
 
