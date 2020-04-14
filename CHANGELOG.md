@@ -1,5 +1,13 @@
 # CHANGELOG - @nook-world/data
 
+### [0.2.9](https://github.com/nook-world/data/compare/v0.2.6...v0.2.9) (2020-04-14)
+
+
+### Bug Fixes
+
+* final fossils list ([7c7cb65](https://github.com/nook-world/data/commit/7c7cb654615a4ed900d5c15bd233c32677cf1f1c))
+* name pachysaurus to pachy ([6204e86](https://github.com/nook-world/data/commit/6204e86ef2cb655f6a6ab412cb993d6bf3ff3ca9))
+
 ### [0.2.8](https://github.com/nook-world/data/compare/v0.2.7...v0.2.8) (2020-04-14)
 
 ### [0.2.7](https://github.com/nook-world/data/compare/v0.2.6...v0.2.7) (2020-04-14)
