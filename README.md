@@ -4,9 +4,7 @@
 
 ### Pre-Requisites
 
-All `@nook-world` packages are published on GitHub. To use them in your
-application, it's recommended that you configure your npm client to always look
-for `@nook-world` packages on GitHub.
+All `@nook-world` packages are published on GitHub. To use them in your application, it's recommended that you configure your npm client to always look for `@nook-world` packages on GitHub.
 
 You can run the following command:
 
@@ -14,8 +12,17 @@ You can run the following command:
 npm config set '@nook-world:registry' 'https://https://npm.pkg.github.com/'
 ```
 
-This will make sure that, whenever you install something from the `@nook-world`
-namespace, it will look for it on GitHub.
+This will make sure that, whenever you install something from the `@nook-world` namespace, it will look for it on GitHub.
+
+You might need to configure a personal access token to download the packages. You can create one [clicking here](https://github.com/settings/tokens/new?description=Github%20Packages&scopes=read:packages,write:packages).
+
+After you create the token, you can execute the following command to save it to your `.npmrc` file:
+
+```bash
+npm config set //npm.pkg.github.com/:_authToken [YOUR TOKEN HERE]
+```
+
+You only have to do this once.
 
 ### Installation
 
@@ -26,10 +33,10 @@ npm install @nook-world/data
 ### Usage
 
 ```javascript
-const bugs = require("@nook-world/data/critters/bugs");
+const bugs = require("@nook-world/bugs");
 // => Array of all bugs
 // => [{bug}, {bug}]
-const Tarantula = require("@nook-world/data/critter/bugs/Tarantula");
+const Tarantula = require("@nook-world/bugs/Tarantula");
 // => Just the Tarantula object
 //{
 //  name: "Tarantula",
