@@ -1,5 +1,6 @@
 {"source": "src/bugs.jsonl", "type": "collection", "output": "./bugs.js"}
 {"source": "src/fishes.jsonl", "type": "collection", "output": "./fishes.js"}
 {"source": "src/fossils.jsonl", "type": "collection", "output": "./fossils.js" }
+{"source": "src/songs.jsonl", "type": "collection", "output": "./songs.js" }
 {"source": "src/bugs.jsonl", "type": "pluck", "output": "./bug/{name}.js"}
 {"source": "src/fishes.jsonl", "type": "pluck", "output": "./fish/{name}.js"}
