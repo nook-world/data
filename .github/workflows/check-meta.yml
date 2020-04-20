@@ -1,0 +1,27 @@
+name: validate meta.jsonl
+
+on:
+  pull_request:
+    branches:
+      - master
+      - next
+
+jobs:
+  validate:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: 🧬 Clone Repository
+        uses: actions/checkout@v2
+
+      - name: 💻 Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: 📦 Install Dependencies
+        run: |
+          npm config set //npm.pkg.github.com/:_authToken ${{ secrets.REGISTRY_TOKEN }} --userconfig .npmrc
+          npm ci
+
+      - name: 🔍 Check meta.jsonl file integrity
+        run: npm run check:meta
