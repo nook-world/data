@@ -1,6 +1,6 @@
 {
   "name": "@nook-world/data",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "The data used by our applications",
   "scripts": {
     "clean": "node -r ts-node/register scripts/clean-build.ts",

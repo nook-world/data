@@ -1,5 +1,18 @@
 # CHANGELOG - @nook-world/data
 
+
+## [1.0.0](https://github.com/nook-world/data/compare/v0.2.9...v1.0.0) (2020-04-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* The songs order has changed
+
+### Features
+
+* add k.k. slider songs ([3c71e0a](https://github.com/nook-world/data/commit/3c71e0a12a5d3d76570526846149da5cf1b1641f))
+* add song prices ([4aff988](https://github.com/nook-world/data/commit/4aff98812269a5348c286afbb19db8ed4436197c))
+
 ### [0.2.9](https://github.com/nook-world/data/compare/v0.2.6...v0.2.9) (2020-04-14)
 
 
