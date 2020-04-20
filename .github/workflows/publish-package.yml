@@ -12,13 +12,14 @@ jobs:
     steps:
       - name: 🧬 Clone Repository
         uses: actions/checkout@v2
-        with: 
+        with:
           fetch-depth: "0"
+          token: ${{ secrets.REPOSITORY_TOKEN }}
 
       - name: ⏬ Pull all tags
         run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
-      - name: ⌨️ Setup Node
+      - name: 💻 Setup Node
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
@@ -28,14 +29,15 @@ jobs:
           npm config set //npm.pkg.github.com/:_authToken ${{ secrets.REGISTRY_TOKEN }} --userconfig .npmrc
           npm ci
 
-      - name: Release
+      - name: 🚀 Release
         env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_AUTHOR_NAME: ${{ secrets.AUTHOR_NAME }}
+          GIT_AUTHOR_NAME: "Isabelle [bot]"
           GIT_AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
-          GIT_COMMITTER_NAME: ${{ secrets.AUTHOR_NAME }}
+          GIT_COMMITTER_NAME: "Isabelle [bot]"
           GIT_COMMITTER_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
           NPM_USERNAME: "isabelle-nw"
           NPM_PASSWORD: ${{ secrets.REGISTRY_TOKEN }}
           NPM_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
-        run: npm run release
+        run: |
+          npm config set //npm.pkg.github.com/:_authToken ${{ secrets.REGISTRY_TOKEN }} --userconfig .npmrc
+          npm run release
