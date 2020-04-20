@@ -14,6 +14,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.5",
     "@semantic-release/npm": "^7.0.5",
     "@sindresorhus/slugify": "^0.11.0",
     "@types/event-stream": "^3.3.34",
@@ -100,6 +101,16 @@
         "@semantic-release/git",
         {
           "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+        }
+      ],
+      [
+        "@semantic-release/github",
+        {
+          "failComment": "This release from branch ${branch.name} has failed due to the following errors:\n- ${errors.map(err => err.message).join('\\n- ')}",
+          "labels": [
+            "release failure"
+          ],
+          "successComment": "This ${issue.pull_request ? 'pull request' : 'issue'} is included in version ${nextRelease.version}"
         }
       ]
     ]
