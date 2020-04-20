@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The data used by our applications",
   "scripts": {
+    "check:meta": "node -r ts-node/register tools/check-related-files.ts",
     "clean": "node -r ts-node/register scripts/clean-build.ts",
     "generate": "node -r ts-node/register scripts/generator.ts",
     "build": "npm run clean && npm run generate",
@@ -23,6 +24,7 @@
     "camelcase": "^6.0.0",
     "conventional-changelog-conventionalcommits": "^4.2.3",
     "event-stream": "^4.0.1",
+    "execa": "^4.0.0",
     "fs-extra": "^9.0.0",
     "globby": "^11.0.0",
     "husky": "^4.2.0",
@@ -57,6 +59,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "npm run check:meta",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
