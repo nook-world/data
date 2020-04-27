@@ -76,10 +76,6 @@
     "releaseCommitMessageFormat": "chore(release): v{{currentTag}}"
   },
   "release": {
-    "branches": [
-      "master",
-      "next"
-    ],
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
