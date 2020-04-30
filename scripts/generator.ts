@@ -4,6 +4,7 @@ import { join, resolve } from "path";
 import { ROOT_LOCATION } from "./const";
 import { collectionGenerator } from "./generators/collection";
 import { pluckGenerator } from "./generators/pluck";
+import { uuid } from "./plugs/uuid";
 
 const METAFILE_LOCATION = join(ROOT_LOCATION, "meta.jsonl");
 
@@ -38,7 +39,24 @@ const validateGeneratorSettings = (settings: GeneratorSettings): Boolean => {
     );
     hasError = true;
   }
+  if (settings.plugs && settings.plugs.length > 0) {
+    const invalidPlugs = getInvalidPlugs(settings.plugs);
+    if (invalidPlugs.length > 0) {
+      console.log(
+        `${invalidPlugs.join(" ")} ${
+          invalidPlugs.length > 1 ? "are" : "is"
+        } not a valid plug. Valid plug${plugsMap.size > 1 ? "s are" : " is"} ${[
+          ...plugsMap.keys(),
+        ].join(", ")}`
+      );
+      hasError = true;
+    }
+  }
   return !hasError;
+};
+
+const getInvalidPlugs = (plugs: PlugsString[]) => {
+  return plugs.filter((plugName) => !plugsMap.has(plugName));
 };
 
 const makePathsAbsolute = (settings: GeneratorSettings): GeneratorSettings => {
@@ -49,6 +67,9 @@ const makePathsAbsolute = (settings: GeneratorSettings): GeneratorSettings => {
   };
   return newSettings;
 };
+
+export const plugsMap = new Map();
+plugsMap.set("uuid", uuid);
 
 const generators = {
   collection: collectionGenerator,
@@ -61,7 +82,10 @@ export type GeneratorSettings = {
   output: string;
   encoding?: string;
   generateEntries?: boolean;
+  plugs: PlugsString[];
 };
+
+export type PlugsString = "uuid";
 
 metadata
   .split("\n")

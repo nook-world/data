@@ -5,7 +5,7 @@ import {
   WriteStream,
 } from "fs-extra";
 import { dirname } from "path";
-import { GeneratorSettings } from "../generator";
+import { GeneratorSettings, plugsMap } from "../generator";
 
 const createCrittersCollectionStream = (
   inputStream: MapStream,
@@ -27,14 +27,16 @@ export const collectionGenerator = (
   sourceStream: MapStream
 ): WriteStream => {
   ensureDir(dirname(settings.output));
+  let stream = sourceStream;
   const collectionWritableStream = createCrittersCollectionStream(
     sourceStream,
     settings.output
   );
-
-  sourceStream
-    .pipe(mapSync((data: string) => data && `${data},`))
-    .pipe(collectionWritableStream, { end: false });
+  settings.plugs.forEach((plug) => {
+    stream = stream.pipe(mapSync((data: string) => plugsMap.get(plug)(data)));
+  });
+  stream = stream.pipe(mapSync((data: string) => data && `${data},`));
+  stream.pipe(collectionWritableStream, { end: false });
 
   return collectionWritableStream;
 };

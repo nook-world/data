@@ -69,6 +69,11 @@ async function checkLastChangedFiles() {
 
   const missingFiles = await getMissingFiles(getChangedFiles());
 
+  if (missingFiles.length < 1) {
+    process.stdout.write("All good!");
+    process.exit(0);
+  }
+
   if (isMetaStaged()) {
     process.stdout.write(
       "You've added the following files but they're missing from meta.jsonl:\n\n"
@@ -143,6 +148,11 @@ async function checkStagedFiles() {
 
   const missingFiles = await getMissingFiles(getNewSrcFiles());
 
+  if (missingFiles.length < 1) {
+    process.stdout.write("All good!\n");
+    process.exit(0);
+  }
+
   if (isMetaStaged()) {
     process.stdout.write(
       "You've added the following files but they're missing from meta.jsonl:\n\n"
@@ -187,8 +197,10 @@ async function getMissingFiles(addedFiles) {
 
 (async () => {
   if (process.env.CI === "true") {
+    console.log("CI Detected");
     await checkLastChangedFiles();
     return;
   }
+  console.log("Checking staged files");
   await checkStagedFiles();
 })();

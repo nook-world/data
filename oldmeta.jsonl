@@ -1,0 +1,15 @@
+{"source": "src/art.jsonl", "plugs": ["uuid"], "type": "collection",  "output": "./art.js"}
+{"source": "src/bugs.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./bugs.js"}
+{"source": "src/clothing.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./clothing.js"}
+{"source": "src/diyMaterials.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./diyMaterials.js"}
+{"source": "src/diyRecipes.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./diyRecipes.js"}
+{"source": "src/fish.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./fish.js"}
+{"source": "src/flowers.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./flowers.js"}
+{"source": "src/fossils.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./fossils.js"}
+{"source": "src/fruit.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./fruit.js"}
+{"source": "src/furniture.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./furniture.js"}
+{"source": "src/houseInteriors.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./houseInteriors.js"}
+{"source": "src/shells.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./shells.js"}
+{"source": "src/songs.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./songs.js"}
+{"source": "src/villagers.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./villagers.js"}
+{"source": "src/events.jsonl", "plugs": ["uuid"], "type": "collection", "output": "./events.js"}
