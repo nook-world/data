@@ -9,7 +9,7 @@ All `@nook-world` packages are published on GitHub. To use them in your applicat
 You can run the following command:
 
 ```bash
-npm config set '@nook-world:registry' 'https://https://npm.pkg.github.com/'
+npm config set '@nook-world:registry' 'https://npm.pkg.github.com/'
 ```
 
 This will make sure that, whenever you install something from the `@nook-world` namespace, it will look for it on GitHub.
